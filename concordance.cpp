@@ -27,14 +27,14 @@ int main(){
 		if (text[i] != temp){
 			//result.push_back(temp);
 			//resultn.push_back(num);
-			cout<< "The word " << temp <<  " occurence:  " << num << " times"<<"\n";
+			cout<< "The word " << temp <<  "occurence:  " << num << " times"<<"\n";
 			temp = text[i];
 			num = 1;
 
 		}
 
 	}
-	cout <<"The word " << temp <<  " occurence:  " << num << " times"<<"\n";
+	cout <<"The word " << temp <<  "occurence:  " << num << " times"<<"\n";
 
 
 
