@@ -4,6 +4,7 @@ int main(){
 	int i = 0;
 	while (true){
 		double* dptr = new double[10000];
+		cout<<sizeof(dptr);
 		cout << "Loop " << i << endl;
 		i++;
 	}
