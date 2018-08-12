@@ -1,5 +1,9 @@
 #include "std_lib_facilities.h"
 #include "token.h"
+#include "vars.h"
+
+
+
 
 
 std::ostream& operator << (std::ostream& os, Token const &t){
@@ -28,6 +32,7 @@ Token Token_stream::get(){
 		case quit: 
 		case mod: 
 		case power:
+		case'h':
 		case'(': 
 		case')': 
 		case'+': 
